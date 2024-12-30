@@ -4,7 +4,7 @@ This project showcases a novel approach to analysing, extracting and visualizing
 
 The example data used in this project is sourced from a research paper that collected UAV multispectral imagery of Niwot Ridge, Colorado between 21 June - 14 August, 2017. The dataset highlights significant changes in snow cover and vegetation health during the summer period in a highly remote alpine ecosystem.
 
-[!alt text](visualization/NiwotRidge_SpatioTemporal.png)
+![alt text](visualization/NiwotRidge_SpatioTemporal.png)
 
 The workflow is as follows:
 1. Calculate NDVI from NIR and Red Bands
