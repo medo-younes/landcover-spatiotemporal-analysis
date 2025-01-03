@@ -292,3 +292,7 @@ def xr_vectorize(raster,pixel_threshold=2, col_name="value"):
 
     return gdf.astype({"class":int})
  
+
+def get_raster_class(raster,val,range, fill_val=0):
+    raster=raster.where((raster >= range[0])  & (raster < range[1])) 
+    return raster.where(raster.isnull(),val).where(~raster.isnull(),fill_val)
